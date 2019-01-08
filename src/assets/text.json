@@ -1,11 +1,11 @@
 {
 "Sanjay": {
     "Name": "Sanjay",
-    "About": "Sanjay is good Angular 4 developer and quick learner. Loves Football a lot.",
+    "About": ".Net MVC fullstack and Angular 4 developer seeking for better oportunity to work on Angular 6/7. Also having knowledge of WCF, Web APi, SSIS, Jenkins, Kendo UI",
     "Experience": "I am having 2.6 year of experience in .Net MVC, Angular 4, WCF, Web API, PL/SQL",
-    "Education":"B.tech in Computer Science",
-    "Skills":[".Net MVC","AngularJS","Angular 4","WCF", "Web API", "PL/SQL"],
-    "Intrest":["Football", "FIFA"],
+    "Education":"B.tech in Computer Science Engineering in 2016",
+    "Skills":[".Net MVC","AngularJS","Angular 4","WCF", "Web API", "SSIS", "PL/SQL"],
+    "Intrest":["Football", "Gaming"],
     "Awards":["Best Performer", "On the spot award"]
 },
 "San": {

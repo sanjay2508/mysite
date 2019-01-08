@@ -8,7 +8,7 @@ import { Component,OnInit } from '@angular/core';
     
 })
 export class AppComponent{
-  title = 'Tour of Profile'; 
+  title = 'Profile'; 
   name = 'Sanjay'; 
-  NavItems = ['about', 'experience', 'education', 'skills','intrests','awards','live-score','cricket-news','login'];  
+  NavItems = ['about', 'experience', 'education', 'skills','intrest','awards','live-score','cricket-news'];  
 }

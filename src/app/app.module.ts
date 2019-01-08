@@ -30,7 +30,7 @@ import { LiveScoreComponent } from './live-score/live-score.component';
     IntrestComponent,
     AwardsComponent,
     CricketNewsComponent,
-    LiveScoreComponent
+    LiveScoreComponent    
   ],
   imports: [
     BrowserModule,
@@ -78,7 +78,7 @@ import { LiveScoreComponent } from './live-score/live-score.component';
         component: LiveScoreComponent
       },
     ])
-  ],
+  ],  
   providers: [],
   bootstrap: [AppComponent]
 })
