@@ -16,6 +16,7 @@ import { IntrestComponent } from './intrest/intrest.component';
 import { AwardsComponent } from './awards/awards.component';
 import { CricketNewsComponent } from './cricket-news/cricket-news.component';
 import { LiveScoreComponent } from './live-score/live-score.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { LiveScoreComponent } from './live-score/live-score.component';
     IntrestComponent,
     AwardsComponent,
     CricketNewsComponent,
-    LiveScoreComponent    
+    LiveScoreComponent,
+    ProfileComponent    
   ],
   imports: [
     BrowserModule,
@@ -46,36 +48,37 @@ import { LiveScoreComponent } from './live-score/live-score.component';
         component: RegisterComponent
       },
       {
-        path: 'app-about',
-        component: AboutComponent
-      },
+        path:'Profile',
+        component:ProfileComponent,
+        children:
+            [{
+              path: 'about',
+              component: AboutComponent
+            },
+            {
+              path: 'experience',
+              component: ExperienceComponent
+            },
+            {
+              path: 'skills',
+              component: SkillsComponent
+            },
+            {
+              path: 'intrest',
+              component: IntrestComponent
+            },
+            {
+              path: 'education',
+              component: EducationComponent
+            },
+            {
+              path: 'awards',
+              component: AwardsComponent
+            }]
+        },
       {
-        path: 'app-experience',
-        component: ExperienceComponent
-      },
-      {
-        path: 'app-skills',
-        component: SkillsComponent
-      },
-      {
-        path: 'app-intrest',
-        component: IntrestComponent
-      },
-      {
-        path: 'app-education',
-        component: EducationComponent
-      },
-      {
-        path: 'app-awards',
-        component: AwardsComponent
-      },
-      {
-        path: 'app-cricket-news',
+        path: 'cricket-news',
         component: CricketNewsComponent
-      },
-      {
-        path: 'app-live-score',
-        component: LiveScoreComponent
       },
     ])
   ],  
