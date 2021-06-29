@@ -1,0 +1,5 @@
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/sanjay2508/mysite
+    # Or
+    # backstage.io/techdocs-ref: url:https://github.com/org/repo/tree/branchName/subFolder
