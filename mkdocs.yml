@@ -1,0 +1,7 @@
+site_name: 'MySite'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
